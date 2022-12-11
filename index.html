@@ -6,8 +6,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/cte.css">
+  <link rel="stylesheet" href="assets/css/cte.css"> 
+  <style>img[alt="www.000webhost.com"]{display:none;}</style>
 </head>
 
 <body>
@@ -18,21 +20,23 @@
   </audio>
 
   <div id="content-container">
-    <div class="center title topbar"><img class="emoji" src="/assets/images/seperator.png"> Kaneki <img class="emoji"
+    <div class="center title topbar"><img class="emoji" src="./assets/images/seperator.png"> Kaneki <img class="emoji"
         src="/assets/images/seperator.png"></div>
-    <span id="typing" class="center"></span>
+        <div class="center">
+    <span id="typing"></span>
+    </div>
     <div class="inline-container bottombar center">
       <!-- discord terminated <img style="height: 20px;bottom:50%;transform:translateY(30%);" src="/assets/images/seperator.png"> -->
       <pre style="display: inline-block;">|<div style="vertical-align: middle;" id="marquee"></div>|</pre>
     </div>
   </div>
 
-  <script src="/assets/particles.js/particles.min.js"></script>
-  <script src="/assets/particles.js/app.js"></script>
-  <script src="/assets/js/cte.js"></script>
+  <script src="./assets/particles.js/particles.min.js"></script>
+  <script src="./assets/particles.js/app.js"></script>
+  <script src="./assets/js/cte.js"></script>
 
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/jquery.marquee.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/jquery.marquee.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
   <script>
@@ -44,8 +48,8 @@
 
       var typed = new Typed("#typing", {
         strings: ["certified anarchist", "professional nuker", "on break", "still learning", "credit -", "github.com/verlox", "Kaneki#2918"],
-        typeSpeed: 35,
-        backspeed: 35,
+        typeSpeed: 55,
+        backSpeed: 45,
         loop: true,
         loopcount: 3,
         showCursor: true,
